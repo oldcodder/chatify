@@ -29,5 +29,5 @@ It enables users to chat instantly with a modern, responsive, and smooth interfa
 - **Socket.io** – real-time bidirectional communication  
 
 ---
-git clone https://github.com/your-username/chat-app.git
+git clone https://github.com/oldcodder/chatify
 cd chat-app
