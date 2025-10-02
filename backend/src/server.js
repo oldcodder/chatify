@@ -10,6 +10,10 @@ import { ENV } from "./lib/env.js";
 import { app, server } from "./lib/socket.js";
 
 const __dirname = path.resolve();
+app.use(cors({
+  origin: "http://localhost:5173", // tumhara frontend
+  credentials: true, // cookies allow karo
+}));
 
 const PORT = ENV.PORT || 3000;
 
